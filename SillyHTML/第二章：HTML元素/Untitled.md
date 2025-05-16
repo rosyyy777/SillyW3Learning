@@ -1,5 +1,3 @@
-# HTML Basic
-
 ## HTML Styles
 
 Setting the style of an HTML element, can be done with the `style` attribute.
@@ -41,7 +39,7 @@ CSS property you can set:
 
 - `<q>` 
 
-  -  The HTML `<q>` tag defines a short quotation. 
+  - The HTML `<q>` tag defines a short quotation. 
 
   - Browsers normally insert quotation marks around the quotation.
 
@@ -136,8 +134,6 @@ HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RG
 - **HSLA Color Values**
   - HSLA color values are an extension of HSL color values, with an Alpha channel - which specifies the opacity for a color.
   - **form: ** **`hsla(hue, saturation, lightness, alpha)`**
-
-
 
 
 

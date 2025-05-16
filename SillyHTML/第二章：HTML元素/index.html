@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<!-- 这个标签的意思是这个文档（document）的类型（type）是html
+ 其实不是很重要。 -->
+<html lang="zh-CN">
+    <!-- html是根元素，没什么可说的。 -->
+    <head>
+        <!-- head包含了一些你不希望显示在网页中的内容，但包含了一些必要的信息。 -->
+        <meta charset="UTF-8">
+        <!-- 这个标签的意思是这个文档使用UTF-8编码。 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 这个标签的意思是这个文档在手机上显示时，宽度和手机屏幕宽度一致。 -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- 这个标签的意思是这个文档在IE浏览器中使用最新的渲染引擎。 -->
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <!-- 这个标签的意思是这个文档的关键字是HTML、CSS和JavaScript。 -->
+        <meta name="description" content="这是一个HTML文档的示例。">
+        <!-- 这个标签的意思是这个文档的描述是这是一个HTML文档的示例。 -->
+        <meta name="author" content="Ruoxi">
+        <!-- 这个标签的意思是这个文档的作者是Your Name。 -->
+        <meta name="generator" content="VSCode">
+        <!-- 这个标签的意思是这个文档的编辑器是Your Editor。 -->
+         <title>HTML元素：第一批</title>
+    </head>
+    <body>
+        <h1>HTML元素：第一批</h1>
+        <p>
+            HTML文档本身是一堆元素嵌套又嵌套生成的有格式的文档，因此笔者将分批次讲述这些元素。
+            有了第一批元素的基础知识，我们就能构建一个朴素的网页了。
+        </p>
+        <p>
+            你可以将这个文件在浏览器中打开，也可以用VSCode打开源代码，看看这个朴素的网页是如何构建的。
+            如果你默认在浏览器中打开，可以右击->检查，或者按下F12，看看网页的结构。
+        </p>
+        <h2>转义字符串（Escape Sequence）</h2>
+        <p>
+            HTML中有一些字符是有特殊含义的，比如<、>、&等，不能直接使用。想要在网页中直接显示这些符号，
+            转义字符串，在HTML中也称字符实体（Character Entity）。
+            例子：小于号&lt; 可以写成&amp;lt;或者&amp;#60;
+            大于号&gt; 可以写成&amp;gt;或者&amp;#62;
+            和号&amp; 可以写成&amp;amp;或者&amp;#38;
+        </p>
+        <h2>标题</h2>
+        <p>
+            HTML中有六种标题，分别是h1、h2、h3、h4、h5、h6。
+            例子：<h1>这是h1标题</h1>
+            <h2>这是h2标题</h2>
+            <h3>这是h3标题</h3>
+            <h4>这是h4标题</h4>
+            <h5>这是h5标题</h5>
+            <h6>这是h6标题</h6>
+            标题不是用来改变字体粗细的，而是用来表示层级关系的。
+        </p>
+        <h2>段落</h2>
+        <p>
+            段落是用来表示一段文字的，段落之间有空行。
+            例子：<p>这是一个段落。</p>
+            段落的默认对齐方式是左对齐。
+        </p>
+            
+    </body>
+</html>
