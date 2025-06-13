@@ -1,1 +1,0 @@
-<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content">Structuring content with HTML - Learn web development | MDN</a>
